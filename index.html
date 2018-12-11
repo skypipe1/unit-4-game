@@ -12,37 +12,54 @@
 </head>
 <body>
 
-    <h1>Crystal Collector</h1>
+    <div>
+
+        <h1>Crystal Collector</h1>
+
+    </div>
 
     <br>
 
-    <ol>
+   <div>
 
-        <li>You will be given a random number at the start of the game.</li>
-        <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points toyout total score.</li>
-        <li>You win the game by matching yout total score to random number, you lose the game if your total score goes above the random number.</li>
-        <li>The value of each crystal is hidden from you until you click on it.</li>
-        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+      <ul>
 
-    </ol>
+            <li>You will be given a random number at the start of the game.</li>
+            <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points toyout total score.</li>
+            <li>You win the game by matching yout total score to random number, you lose the game if your total score goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Each time when the game starts, the game will change the values of each crystal.</li>
+
+      </ul>
+
+   </div>
 
     <!-- insert random number -->
+
+    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+
+    
 
 
     <!-- insert wins and losses -->
 
 
     <!-- insert 4 gems -->
-    <img src="assets/images/bluecrystal.png" alt="">
-    <img src="assets/images/greencrystal.png" alt="">
-    <img src="assets/images/whitecrystal.png" alt="">
-    <img src="assets/images/redcrystal.png" alt="">
+    <div class="gems">
+
+        <img src="assets/images/bluecrystal.png" id="blueCrystal" alt="">
+        <img src="assets/images/greencrystal.png" id="greenCrystal" alt="">
+        <img src="assets/images/whitecrystal.png" id="whiteCrystal" alt="">
+        <img src="assets/images/redcrystal.png" id="redCrystal" alt="">
+
+    </div>
 
 
     <!-- insert 'Your total score is:' -->
 
 
     <!-- insert my score in a box -->
+    <h1>Score: <span id="score"></span></h1>
 
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
